@@ -7,3 +7,5 @@
 [Toward Controlled Generation of Text](https://arxiv.org/pdf/1703.00955.pdf)
 
 [sentiment viz: Tweet Sentiment Visualization](https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/)
+
+[花式解释AutoEncoder与VAE](https://zhuanlan.zhihu.com/p/27549418)
