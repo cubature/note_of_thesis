@@ -1,5 +1,7 @@
 [Dynamic task scheduling using a directed neural network](https://www.sciencedirect.com/science/article/pii/S0743731514001907)
 
+[Emotional Speech](https://zenodo.org/record/1188976#.XE7OO1xKhnL)
+
 ---
 
 [GAN在自然语言处理方面有哪些有趣的文章和应用](https://www.zhihu.com/question/54463527)
