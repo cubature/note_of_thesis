@@ -17,3 +17,15 @@
 --------------------------------------
 
 Databases, features and classifiers for speech emotion recognition: a review
+
+
+
+
+
+WASSA-2017 Shared Task on Emotion Intensity (EmoInt) WASSA-2017 Shared Task on Emotion Intensity (EmoInt) http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html 
+ 
+Tweet Sentiment Visualization https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/ 
+ 
+Paper : http://saifmohammad.com/WebPages/TweetEmotionIntensity-dataviz.html 
+ 
+
