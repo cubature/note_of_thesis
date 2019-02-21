@@ -28,6 +28,8 @@ Tweet Sentiment Visualization https://www.csc2.ncsu.edu/faculty/healey/tweet_viz
  
 Paper : http://saifmohammad.com/WebPages/TweetEmotionIntensity-dataviz.html 
  
+ 
+ 图像的。。。。：
 https://www.semanticscholar.org/paper/Data-Augmentation-in-Emotion-Classification-Using-Zhu-Liu/a278ab2341f60402bdf4958e6c64a6c804669efd 
 Data Augmentation in Emotion Classification Using Generative Adversarial Networks 
 
