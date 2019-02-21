@@ -31,3 +31,4 @@ Paper : http://saifmohammad.com/WebPages/TweetEmotionIntensity-dataviz.html
 https://www.semanticscholar.org/paper/Data-Augmentation-in-Emotion-Classification-Using-Zhu-Liu/a278ab2341f60402bdf4958e6c64a6c804669efd 
 Data Augmentation in Emotion Classification Using Generative Adversarial Networks 
 
+https://arxiv.org/pdf/1711.00648.pdf
