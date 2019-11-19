@@ -26,6 +26,8 @@
 
 `glove/`文件夹中的为预训练的GloVe模型。
 
+---
+
 ### 环境及工具
 
 * Windows
@@ -33,6 +35,8 @@
 * pip >= 19.0
 * tensorflow 2.x
 * keras 2.x
+
+---
 
 ### 数据集预处理
 
@@ -64,11 +68,31 @@ python3 generate_corpus.py
 
 生成两个文件，分别为训练集和测试集。
 
+---
+
 ### 神经网络训练
 
-文件keras为使用
+文件`emotic_keras_training.py`为使用one-hot和Skip-gram方法进行词嵌入实验的代码，而文件`emotic_keras_glove.py`为使用GloVe进行词嵌入的实验代码。
+
+在`emotic_keras_training.py`中，通过修改？？？选择不同的词嵌入方法，通过修改？？？对神经网络的结构进行修改。（也可以自定义层的结构，参考[编写你自己的Keras层](https://keras.io/zh/layers/writing-your-own-keras-layers/)。
+
+运行`emotic_keras_training.py`：
 
 ```
 ```
+
+同理，在`emotic_keras_glove.py`中，通过修改？？？对神经网络的结构进行修改。
+
+运行`emotic_keras_glove.py`：
+
+```
+```
+
+---
 
 ### 使用已训练模型
+
+运行`emotic_keras_test.py`：
+
+```
+```
