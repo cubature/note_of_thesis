@@ -33,7 +33,7 @@
 
 ### 环境及工具
 
-* Windows
+* Windows >= 7
 * Python > 3.4
 * pip >= 19.0
 * tensorflow 2.x
