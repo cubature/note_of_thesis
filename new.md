@@ -63,13 +63,13 @@ python3 speech_to_text.py --model ./models/output_graph.pbmm --alphabet ./models
 
 文件中`path_corpus_original`为原始数据集的路径，`path_train_corpus`和`path_test_corpus`分别为基于原始数据集进行处理后生成的训练数据集和测试数据集的路径及名称。
 
-运行文件：
+如，将`data/corpus/tlkh.txt`放到`data/`下，并重命名为`text_emotion_original.txt`，直接运行文件：
 
 ```
 python3 generate_corpus.py
 ```
 
-生成两个文件，分别为训练集和测试集。
+生成两个文件`train.txt`和`test.txt`，分别为训练集和测试集。
 
 ---
 
