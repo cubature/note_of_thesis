@@ -53,12 +53,12 @@ pip3 install deepspeech
 语音转文字
 
 ```
-python3 speech_to_text.py --model ??? --?? ??? --?? ???
+python3 speech_to_text.py --model ./models/output_graph.pbmm --alphabet ./models/alphabet.txt --audio path/of/audio
 ```
 
 #### 生成训练集和测试集 (generate_corpus.py)
 
-原始数据集的路径及生成数据集的路径名称通过修改文件中的？？？？？？实现。
+原始数据集的路径及生成数据集的路径名称通过修改文件中的`path_corpus_original`、`path_train_corpus`和`path_test_corpus`实现。
 
 运行文件：
 
@@ -74,25 +74,30 @@ python3 generate_corpus.py
 
 文件`emotic_keras_training.py`为使用one-hot和Skip-gram方法进行词嵌入实验的代码，而文件`emotic_keras_glove.py`为使用GloVe进行词嵌入的实验代码。
 
-在`emotic_keras_training.py`中，通过修改？？？选择不同的词嵌入方法，通过修改？？？对神经网络的结构进行修改。（也可以自定义层的结构，参考[编写你自己的Keras层](https://keras.io/zh/layers/writing-your-own-keras-layers/)。
+在`emotic_keras_training.py`中，通过修改`input_struct`选择不同的词嵌入方法，`'bag_of_words'`为one-hot方法，`'sequence_of_words'`为Skip-gram方法。通过修改`model_type`对神经网络的结构进行修改，或通过直接修改`# definition of the model`模块使用预设神经层进行网络构造。（也可以自定义层的结构，参考[编写你自己的Keras层](https://keras.io/zh/layers/writing-your-own-keras-layers/)。
 
 运行`emotic_keras_training.py`：
 
 ```
+python3 emotic_keras_training.py
 ```
 
-同理，在`emotic_keras_glove.py`中，通过修改？？？对神经网络的结构进行修改。
+同理，在`emotic_keras_glove.py`中，通过修改`# definition of the model`对神经网络的结构进行修改。
 
 运行`emotic_keras_glove.py`：
 
 ```
+python3 emotic_keras_glove.py
 ```
 
 ---
 
 ### 使用已训练模型
 
+使用`emotic_keras_test.py`使用已训练模型进行预测，修改`phrase`变量改变需要预测的句子
+
 运行`emotic_keras_test.py`：
 
 ```
+python3 emotic_keras_test.py
 ```
